@@ -15,8 +15,8 @@ void test_stringpgm_returnsmallsubstrings(void)
 
 void test_stringpgm_returnlargesubstrings(void)
 {
-    TEST_ASSERT_EQUAL_CHAR_ARRAY(my name is lekkala sai kumar reddy,stringpgm(my_name_is_lekkala_sai_kumar_reddy));
-    TEST_ASSERT_EQUAL_CHAR_ARRAY(rajamouli has fabolous directing skills,stringpgm(rajamouli_has_fabolous_directing_skills));
+    TEST_ASSERT_EQUAL_CHAR_STRING(my name is lekkala sai kumar reddy,stringpgm(my_name_is_lekkala_sai_kumar_reddy));
+    TEST_ASSERT_EQUAL_CHAR_STRING(rajamouli has fabolous directing skills,stringpgm(rajamouli_has_fabolous_directing_skills));
 }
 int test_main(void)
 {
