@@ -1,6 +1,6 @@
 #ifndef HEADER_H_INCLUDED
 #define HEADER_H_INCLUDED
 
-c
+void stringpgm(char*);
 
 #endif // HEADER_H_INCLUDED
