@@ -1,0 +1,35 @@
+
+#include<unity.h>
+#include"prime.h"
+
+void setUP(){}
+
+void tearDown(){}
+
+void test_check_prime(void)
+{
+    TEST_ASSERT_EQUAL_CHAR(True,check_prime(11));
+    TEST_ASSERT_EQUAL_CHAR(False,check_prime(9));
+    TEST_ASSERT_EQUAL_CHAR(True,check_prime(997));
+    
+}
+void test_check_negative(void)
+
+    
+    TEST_ASSERT_EQUAL_CHAR(False,check_prime(-11));
+    TEST_ASSERT_EQUAL_CHAR(False,check_prime(-197));
+    TEST_ASSERT_EQUAL_CHAR(False,check_prime(-997));
+    
+}
+int test_main(void)
+{
+    UNITY_BEGIN();
+    
+    RUN_TEST(check_prime);
+    RUN_TEST(check_negative);
+    
+    return UNITY_END();
+}
+    
+    
+}

@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1597322838 source:c:\users\lekka\desktop\myprgm\assesment2\assesment2\code1.c
+	<stdio.h>
+	"header.h"
+
+1597322871 c:\users\lekka\desktop\myprgm\assesment2\assesment2\header.h
+
+1597324056 source:c:\users\lekka\desktop\myprgm\assesment2\assesment2\main.c
+	<stdio.h>
+
